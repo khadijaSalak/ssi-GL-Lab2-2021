@@ -16,5 +16,22 @@ public static void main(String[] args)
 		// makes a min-priority queue(min-heap).
 		PriorityQueue<HuffmanNode> q
 			= new PriorityQueue<HuffmanNode>(n, new MyComparator());
+	
+	for (int i = 0; i < n; i++) {
+
+			// creating a Huffman node object
+			// and add it to the priority queue.
+			HuffmanNode hn = new HuffmanNode();
+
+			hn.c = charArray[i];
+			hn.data = charfreq[i];
+
+			hn.left = null;
+			hn.right = null;
+
+			// add functions adds
+			// the huffman node to the queue.
+			q.add(hn);
+		}
     }
 }
