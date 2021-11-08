@@ -73,6 +73,13 @@ public static void main(String[] args)
 
 			// first extracted node as left child.
 			f.left = x;
-	}
+			f.right = y;
+
+			// marking the f node as the root node.
+			root = f;
+
+			// add this node to the priority-queue.
+			q.add(f);
+	  }
     }
 }
