@@ -1,3 +1,7 @@
+import java.util.PriorityQueue;
+import java.util.Scanner;
+import java.util.Comparator;
+
 public class Huffman {
   public static void printCode(HuffmanNode root, String s)
     {
