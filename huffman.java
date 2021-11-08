@@ -66,6 +66,13 @@ public static void main(String[] args)
 
 			// new node f which is equal
 			HuffmanNode f = new HuffmanNode();
+			// to the sum of the frequency of the two nodes
+			// assigning values to the f node.
+			f.data = x.data + y.data;
+			f.c = '-';
+
+			// first extracted node as left child.
+			f.left = x;
 	}
     }
 }
