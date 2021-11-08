@@ -81,5 +81,6 @@ public static void main(String[] args)
 			// add this node to the priority-queue.
 			q.add(f);
 	  }
+	printCode(root, "");
     }
 }
